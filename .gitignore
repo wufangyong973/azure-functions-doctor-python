@@ -17,12 +17,12 @@ coverage.xml
 htmlcov/
 
 # Build artifacts
+temp_auto_push.bat
 build/
 dist/
 *.egg-info/
 
 # IDE
-.vscode/
 .idea/
 
 # Docs
@@ -38,3 +38,5 @@ site/
 # uv is not part of this toolchain; a lockfile nothing refreshes is
 # worse than none, because uv honours it automatically.
 uv.lock
+.gitignore
+branch_structure.json
